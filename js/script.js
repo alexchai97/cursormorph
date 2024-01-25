@@ -19,6 +19,11 @@ function raf(time) {
 
 requestAnimationFrame(raf)
 
+
+if (window.matchMedia("(pointer: coarse)").matches) {
+    alert('Please use a desktop / laptop for the best experience!');
+}
+
 const scrolltrack = document.getElementById('scroll-track');
 const scrollthumb = document.getElementById('scroll-thumb');
 
@@ -183,3 +188,5 @@ $('a, .btn, .navbar-toggler, button, .highlight').on('mouseleave', function () {
     ifMimic = false;
     $(cursor).removeClass('cursor-mimic');
 });
+
+//cursor and scrollbar by Alex Chai. alexchai97.github.io
