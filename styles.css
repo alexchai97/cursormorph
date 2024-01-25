@@ -1,11 +1,11 @@
 @font-face {
     font-family: Geologica;
-    src: url('fonts/Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf');
+    src: url('/fonts/Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf');
 }
 
 @font-face {
     font-family: Quicksand;
-    src: url('fonts/Quicksand-VariableFont_wght.ttf');
+    src: url('/fonts/Quicksand-VariableFont_wght.ttf');
 }
 
 :root {
